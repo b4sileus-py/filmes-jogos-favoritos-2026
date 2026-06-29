@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto 1 (Atividade MAPA)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-content">
+      <h1>Meus Filmes e Jogos Favorito<br>🎥🎬🎞️🎮</h1>
+      <p class="tagline">Uma pequena coleção de histórias, mundos e experiências que me marcaram de alguma forma no decorrer deste semestre. </p>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#inicio">Início </a></li>
+        <li><a href="#filmes">Filmes</a></li>
+        <li><a href="#jogos">Jogos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="section section--inicio">
+      <p>Esta página reúne alguns dos filmes e jogos que mais marcaram minha memória neste ano de 2026, selecionados pelo impacto pessoal que cada um teve. O projeto tem como proposta organizar esses títulos em um layout de cards, servindo como exercício prático de HTML, CSS, estruturação de seções, inserção de imagens e construção de um design responsivo.</p>
+    </section>
+
+    <section id="filmes" class="section section--filmes">
+      <h2>Melhores Filmes Assistidos em 2026</h2>
+      <p class="section-intro">Ao longo deste semestre vi bons filmes de gêneros bem diferentes. Esta lista, no entanto, reúne os títulos que considero mais memoráveis, não está necessariamente em ordem de preferência.</p>
+
+      <div class="card-grid">
+
+        <article class="card card--filme">
+          <img src="img/filme1.jpg" alt="Pôster do filme Bingo">
+          <div class="card-body">
+            <h3>Bingo: O Rei das Manhãs</h3>
+            <p class="card-meta"><span>Gênero:</span> Comédia dramática</p>
+            <p class="card-meta"><span>Ano:</span> 2017</p>
+            <p class="card-desc">Um filme que pode parecer apenas a história de um palhaço, mas fala de um drama intenso sobre fama, identidade e solidão. Inspirado no universo do Bozo, mostra o peso de ser conhecido por todos e, ao mesmo tempo, não ser reconhecido de verdade.</p>
+          </div>
+        </article>
+
+        <article class="card card--filme">
+          <img src="img/filme2.jpg" alt="Pôster do filme O Homem Bicentenário">
+          <div class="card-body">
+            <h3>O Homem Bicentenário</h3>
+            <p class="card-meta"><span>Gênero:</span> Ficção científica, drama</p>
+            <p class="card-meta"><span>Ano:</span> 1999</p>
+            <p class="card-desc">Um filme marcante para assistir com a família e que também levanta uma pergunta profunda: o que realmente nos faz humanos? A jornada de Andrew mistura afeto, identidade, liberdade e o desejo de ser reconhecido como alguém, não apenas como uma máquina.</p>
+          </div>
+        </article>
+
+        <article class="card card--filme">
+          <img src="img/filme3.jpg" alt="Pôster do filme Distrito 9">
+          <div class="card-body">
+            <h3>Distrito 9</h3>
+            <p class="card-meta"><span>Gênero:</span> Ficção científica, ação</p>
+            <p class="card-meta"><span>Ano:</span> 2009</p>
+            <p class="card-desc">Uma ficção científica forte, que usa alienígenas como metáfora para exclusão, preconceito e segregação. O filme chama atenção por tratar os “visitantes” como marginalizados/favelados, criando uma história de ação com crítica social pesada e muito bem construída, pena não ter uma continuação. </p>
+          </div>
+        </article>
+
+        <article class="card card--filme">
+          <img src="img/filme4.jpg" alt="Pôster do filme Família do Bagulho">
+          <div class="card-body">
+            <h3>Família do Bagulho</h3>
+            <p class="card-meta"><span>Gênero:</span> Comédia</p>
+            <p class="card-meta"><span>Ano:</span> 2013</p>
+            <p class="card-desc">Uma comédia leve, exagerada e divertida também, daquelas boas para desligar a cabeça em uma sexta-feira de noite. Funciona como alívio cômico, com situações absurdas, boa química entre o elenco e aquele humor clássico americano fácil de assistir.</p>
+          </div>
+        </article>
+
+        <article class="card card--filme">
+          <img src="img/filme5.jpg" alt="Pôster do filme Frankenstein">
+          <div class="card-body">
+            <h3>Frankenstein</h3>
+            <p class="card-meta"><span>Gênero:</span> Terror, drama</p>
+            <p class="card-meta"><span>Ano:</span> 2025</p>
+            <p class="card-desc">Um filme para assistir com calma, porque vai além do terror e fala sobre criação, abandono, culpa e humanidade. A história traz reflexões sobre complexo de Deus, paternidade, propósito e sobre quem realmente pode ser chamado de monstro.</p>
+          </div>
+        </article>
+
+        <article class="card card--filme">
+          <img src="img/filme6.jpg" alt="Pôster do filme V de Vingança">
+          <div class="card-body">
+            <h3>V de Vingança</h3>
+            <p class="card-meta"><span>Gênero:</span> Ação, ficção científica, drama</p>
+            <p class="card-meta"><span>Ano:</span> 2005</p>
+            <p class="card-desc">O que já era uma excelente HQ virou um filme marcante sobre resistência, medo e controle social. Mais do que uma história de vingança, apresenta a força de uma ideia contra um sistema autoritário, com visual forte e uma mensagem que continua atual.</p>
+          </div>
+        </article>
+
+        <article class="card card--filme">
+          <img src="img/filme7.jpg" alt="Pôsteres dos filmes Resgate e Resgate 2">
+          <div class="card-body">
+            <h3>Resgate 1 e 2</h3>
+            <p class="card-meta"><span>Gênero:</span> Ação, suspense</p>
+            <p class="card-meta"><span>Ano:</span> 2020 e 2023</p>
+            <p class="card-desc">Dois dos filmes de ação mais empolgantes que já assisti. As cenas longas de combate sem cortes de câmera, a intensidade das sequências e a presença do protagonista que esqueci o nome tornam a experiência muito imersiva, com ação convincente do começo ao final do filme.</p>
+          </div>
+        </article>
+
+        <article class="card card--filme">
+          <img src="img/filme8.jpg" alt="Pôsteres da trilogia do César de Planeta dos Macacos">
+          <div class="card-body">
+            <h3>Planeta dos Macacos: Trilogia do César</h3>
+            <p class="card-meta"><span>Gênero:</span> Ficção científica, drama, ação</p>
+            <p class="card-meta"><span>Ano:</span> 2011, 2014 e 2017</p>
+            <p class="card-desc">Uma das minhas franquias preferidas e um verdadeiro significado de "Absolute Cinema". É daqueles filmes pra se ver em tela grande e com som alto. A trilogia une muita emoção, ação, efeitos visuais impressionantes e uma construção perfeita do César, um dos personagens mais marcantes do cinema de todos os tempos.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="jogos" class="section section--jogos">
+      <h2>Melhores jogos que joguei este ano</h2>
+      <p class="section-intro">Vários jogos foram "candidatos" a esta lista, incluindo alguns clássicos de gerações anteriores. Mas pra essa lista, dei prioridade aos jogos que joguei no Xbox neste ano.</p>
+
+      <div class="card-grid">
+
+        <article class="card card--jogo">
+
+          <div class="card-media">
+            <img class="card-img card-img--capa" src="img/jogo1.jpg" alt="Capa do jogo Mortal Kombat 11">
+            <img class="card-img card-img--gif" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJ4ejZ6ajJmZXl0YjRwcTkwMGRhM2U5MzAyZDNqdTA5YmRqcm1yYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1mihVw5ke0CPcFri0Q/giphy.gif" alt="Gameplay do jogo Mortal Kombat 11">
+          </div>
+          <div class="card-body">
+            <h3>Mortal Kombat 11</h3>
+            <p class="card-meta"><span>Plataforma:</span> Xbox</p>
+            <p class="card-meta"><span>Gênero:</span> Luta</p>
+            <p class="card-meta"><span>Lançamento:</span> 2019</p>
+            <p class="card-desc">Um dos jogos que mais joguei na vida, especialmente pelas partidas online intensas e competitivas. Além do visual forte e do combate técnico, é o jogo em que sinto que realmente desenvolvi um nível alto de domínio e que teria chances de prevalecer em um eventual torneio. Esse aqui o pai dá aula</p>
+          </div>
+        </article>
+
+        <article class="card card--jogo">
+
+          <div class="card-media">
+            <img class="card-img card-img--capa" src="img/jogo2.jpg" alt="Capa do jogo Batman: Arkham Knight">
+            <img class="card-img card-img--gif" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjYwZm11NmF3ZG5jMTF4MnBuN2x6a3YzOG9uaGNjZmg5cXlxNXBlcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZaD7DaZTsD15WIZdxA/giphy.gif" alt="Gameplay do jogo Batman: Arkham Knight">
+          </div>
+          <div class="card-body">
+            <h3>Batman: Arkham Knight</h3>
+            <p class="card-meta"><span>Plataforma:</span> Xbox</p>
+            <p class="card-meta"><span>Gênero:</span> Ação, aventura</p>
+            <p class="card-meta"><span>Lançamento:</span> 2015</p>
+            <p class="card-desc">Para mim, é praticamente o jogo definitivo do Batman. O combate é fluido, a ambientação de Gotham é absurda e os gráficos continuam impressionantes até hoje, entregando uma experiência imersiva, inteligente e muito divertida. Muitos jogos copiaram a jogabilidade de combate e mecânica de movimentos deste jogo. </p>
+          </div>
+        </article>
+
+        <article class="card card--jogo">
+
+          <div class="card-media">
+            <img class="card-img card-img--capa" src="img/jogo3.jpg" alt="Capa do jogo Red Dead Redemption 2">
+            <img class="card-img card-img--gif" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG9oZHpxd2c5Y2w5amppa3Q4cTMzMnkyNXp0MjR4cGgxdDdpbWE5NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/82FB5Whc8WCouzIXEt/giphy.gif" alt="Gameplay do jogo Red Dead Redemption 2">
+          </div>
+          <div class="card-body">
+            <h3>Red Dead Redemption 2</h3>
+            <p class="card-meta"><span>Plataforma:</span> Xbox</p>
+            <p class="card-meta"><span>Gênero:</span> Mundo aberto, aventura</p>
+            <p class="card-meta"><span>Lançamento:</span> 2018</p>
+            <p class="card-desc">Muito mais do que um “GTA no velho oeste”. É um jogo extremamente detalhado, com mundo vivo, personagens marcantes, clima dinâmico, mistérios e uma sensação de realismo difícil de encontrar em outros jogos. Possui uma jogabilidade, mecânica e física incomparáveis. Além disso tudo, tem uma história impecável de redenção e sacrifício.</p>
+          </div>
+        </article>
+
+        <article class="card card--jogo">
+
+          <div class="card-media">
+            <img class="card-img card-img--capa" src="img/jogo4.jpg" alt="Capa do jogo Hogwarts Legacy">
+            <img class="card-img card-img--gif" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTFteW1saTFzazg1d2szOHQwb2t5azdkMW9jdXZtbmJzMnVodWhvayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TZugI6VGlF3lrCCSzK/giphy.gif" alt="Gameplay do jogo Hogwarts Legacy">
+          </div>
+          <div class="card-body">
+            <h3>Hogwarts Legacy</h3>
+            <p class="card-meta"><span>Plataforma:</span> Xbox</p>
+            <p class="card-meta"><span>Gênero:</span> RPG, mundo aberto</p>
+            <p class="card-meta"><span>Lançamento:</span> 2023</p>
+            <p class="card-desc">Uma experiência muito imersiva dentro do universo de Harry Potter. O castelo, os feitiços, os detalhes do mundo e a liberdade de exploração fazem o jogo valer a pena até para quem não é tão fanático pela franquia.</p>
+          </div>
+        </article>
+
+        <article class="card card--jogo">
+
+          <div class="card-media">
+            <img class="card-img card-img--capa" src="img/jogo5.jpg" alt="Capa do jogo Sombras da Guerra">
+            <img class="card-img card-img--gif" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDBxZ3E2cHp2NjE0ZHg4YjgxaXh3aWlrbmI5N3dmbXdodTgzc3FhMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vytNcUmTTWVws/giphy.gif" alt="Gameplay do jogo Sombras da Guerra">
+          </div>
+          <div class="card-body">
+            <h3>Sombras da Guerra</h3>
+            <p class="card-meta"><span>Plataforma:</span> Xbox</p>
+            <p class="card-meta"><span>Gênero:</span> Ação, RPG</p>
+            <p class="card-desc">Um jogo excelente para quem gosta do universo de Senhor dos Anéis (e até pra quem nunca viu os filmes). É uma continuação imediata do jogo "Sombras de Mordor", que também é excelente. O sistema de criação e domínio de orcs deixa cada confronto mais pessoal e personalizado, enquanto a história, o combate, a furtividade e a dublagem brasileira tornam a experiência ainda mais divertida.</p>
+          </div>
+        </article>
+
+        <article class="card card--jogo">
+
+          <div class="card-media">
+            <img class="card-img card-img--capa" src="img/jogo6.jpg" alt="Capa dos jogos Ori and the Blind Forest e Ori and the Will of the Wisps">
+            <img class="card-img card-img--gif" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnRjYjBiZXEyMmE3Z29mbDkxZjhrdTYxNHRnOXptYjZlN3JubzdwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SVUQaIka2CRyKhVP2k/giphy.gif" alt="Gameplay do jogo Ori and the Blind Forest e Ori and the Will of the Wisps">
+          </div>
+          <div class="card-body">
+            <h3>Ori (ambos)</h3>
+            <p class="card-meta"><span>Plataforma:</span> Xbox</p>
+            <p class="card-meta"><span>Gênero:</span> Plataforma, aventura</p>
+            <p class="card-meta"><span>Lançamento:</span> 2015 e 2020</p>
+            <p class="card-desc">Um dos meus xodós. A trilha sonora impecável, o visual artístico feito a mão com detalhes em aquarela, a emoção da história e a jogabilidade desafiadora estilo "metroidvania" cheia de enigmas criam uma experiência linda, desafiadora e viciante do início ao fim.</p>
+          </div>
+        </article>
+
+        <article class="card card--jogo">
+
+          <div class="card-media">
+            <img class="card-img card-img--capa" src="img/jogo7.jpg" alt="Capa do jogo No Man's Sky">
+            <img class="card-img card-img--gif" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTc1NHFuMXRkNmt2aXpkNzh1MzNhc2xibHA2ZXo4aHVvemFxcTZtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U4X7pa8dmJMJLiLAE0/giphy.gif" alt="Gameplay do jogo No Man's Sky">
+          </div>
+          <div class="card-body">
+            <h3>No Man's Sky</h3>
+            <p class="card-meta"><span>Plataforma:</span> Xbox</p>
+            <p class="card-meta"><span>Gênero:</span> Exploração, sobrevivência, mundo aberto</p>
+            <p class="card-desc">Se jogos de mundo aberto já são interessantes, aqui a proposta vai além: é praticamente um universo aberto. Explorar planetas únicos, coletar recursos, conhecer outras espécies, construir várias bases personalizadas e únicas pelo universo, pilotar naves e viajar por infinitos sistemas solares  torna a experiência enorme e marcante.</p>
+          </div>
+        </article>
+
+        <article class="card card--jogo">
+
+          <div class="card-media">
+            <img class="card-img card-img--capa" src="img/jogo8.jpg" alt="Capa do jogo Cuphead e da DLC The Delicious Last Course">
+            <img class="card-img card-img--gif" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG5yYWpuaWtzNjF6ZmR2ZGg2ZnF0cWx3OXJjcXZraWp6dmRua3hvNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iQKFMH6EpcfcqqGFJC/giphy.gif" alt="Gameplay do jogo Cuphead e da DLC The Delicious Last Course">
+          </div>
+          <div class="card-body">
+            <h3>Cuphead (com a DLC)</h3>
+            <p class="card-meta"><span>Plataforma:</span> Xbox</p>
+            <p class="card-meta"><span>Gênero:</span> Run and gun, ação</p>
+            <p class="card-meta"><span>Lançamento:</span> 2017 (base) e 2022 (DLC)</p>
+            <p class="card-desc">Um dos jogos mais difíceis e estilosos que já joguei. A arte desenhada à mão, inspirada em animações dos anos 30, junto com a trilha sonora e a jogabilidade de “correr e atirar”, tornam cada vitória muito recompensadora. Obtive todas as conquistas do jogo. Inclusive a de derrotar todos os inimigos no modo Especialista sem sofrer dano. É recompensador de mais. </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <aside id="sobre" class="section section--sobre">
+      <h2>Informações sobre a Página</h2>
+      <p>O objetivo do projeto foi praticar a construção de uma página web simples somente com HTML e CSS, porém bem estruturada, com seções organizadas, uso de imagens, cards informativos, textos descritivos e adaptação responsiva para diferentes tipos de tela. O principal desafio técnico foi compreender o funcionamento das variáveis CSS e, principalmente, descobrir como sobrepor imagens para exibir GIFs animados ao passar o mouse sobre as capas dos jogos.</p>
+      <br>
+      <p>Para melhorar a identidade visual do projeto, utilizei fontes personalizadas do Google Fonts a fim de verificar como funcionaria na prática. Isso é feito através de um link para um arquivo CSS externo hospedado na plataforma e não de uma API como eu achei que fosse. Esse arquivo contém as regras @font-face necessárias para carregar as famílias tipográficas Rajdhani e Inter, pra maior consistência estética e legibilidade em diferentes dispositivos e navegadores.</p>
+    </aside>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Roberto Sergio dos Santos Siqueira. Página criada para fins de estudo.</p>
+  </footer>
+
+</body>
+</html>
