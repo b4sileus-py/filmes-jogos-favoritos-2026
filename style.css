@@ -165,15 +165,6 @@ body {
   background-color: #0e0f14;
 }
 
-/* =========================================
-   EFEITO DE GIF NOS CARDS DE JOGOS
-   Esta parte cria a troca da capa .jpg pelo gif.
-   O HTML do jogo precisa ter:
-   - uma imagem com class="card-img--capa"
-   - uma imagem com class="card-img--gif"
-   As duas ficam no mesmo espaço dentro de .card-media.
-========================================= */
-
 .card-media {
   position: relative;       /* cria a área de referência para o gif ficar por cima da capa */
   width: 100%;
@@ -194,8 +185,7 @@ body {
   transition: opacity 0.35s ease;
 }
 
-/* GIF do jogo:
-   começa invisível e posicionado exatamente por cima da capa. */
+/* GIF do jogo */
 .card-img--gif {
   position: absolute;
   top: 0;
